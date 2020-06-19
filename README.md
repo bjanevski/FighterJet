@@ -14,8 +14,10 @@
 
 <img src="images/gameover.jpg">
 
-Имплементацијата на играта се состои од 3 главни делови: Picture boxes, Label и Timer.
+**Имплементацијата** на играта се состои од 3 главни делови: Picture boxes, Label и Timer.
 
 <img src="images/components.jpg">
+
+Целосната функционалност на играта е имплементирана во класата [Form1](https://github.com/bjanevski/FighterJet/blob/master/Fighter%20Jet/Form1.cs)
 
 
