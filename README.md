@@ -25,6 +25,7 @@
   <img src="images/player.png">
   <img src="images/enemy.png">
   <img src="images/bullet.png">
+  <img src="images/score.jpg">
   <img src="images/label.jpg">
 </p> 
 <br />
