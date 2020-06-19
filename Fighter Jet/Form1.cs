@@ -106,7 +106,7 @@ namespace Fighter_Jet
             if(score == 20)
             {
                 enemySpeed = 15;
-            }
+            } 
         }
 
         private void keyisdown(object sender, KeyEventArgs e)
