@@ -18,6 +18,12 @@
 
 <img src="images/components.jpg">
 
-Целосната функционалност на играта е имплементирана во класата [Form1](https://github.com/bjanevski/FighterJet/blob/master/Fighter%20Jet/Form1.cs).
+Целосната функционалност на играта е имплементирана во класата [Form1](https://github.com/bjanevski/FighterJet/blob/master/Fighter%20Jet/Form1.cs). Користени се коментари за објаснување на методите и нивните функционалности.
+
+Во методот mainGameTimerEvent() се имплементирани движењата на играчот, уништувањето на противничките авиони како и менувањето на тежината на играта по одреден постигнат резултат.
+
+<img src="images/movement.jpg">
+<img src="images/destroying_enemies.jpg">
+<img src="images/levels.jpg">
 
 
