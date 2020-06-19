@@ -74,6 +74,7 @@ namespace Fighter_Jet
                 shooting = false;
             }
 
+            //enemyOne is destroyed
             if(bullet.Bounds.IntersectsWith(enemyOne.Bounds))
             {
                 score += 1;
@@ -82,6 +83,7 @@ namespace Fighter_Jet
                 shooting = false;
             }
 
+            //enemyTwo is destroyed
             if (bullet.Bounds.IntersectsWith(enemyTwo.Bounds))
             {
                 score += 1;
@@ -90,6 +92,7 @@ namespace Fighter_Jet
                 shooting = false;
             }
 
+            //enemyThree is destroyed
             if (bullet.Bounds.IntersectsWith(enemyThree.Bounds))
             {
                 score += 1;
@@ -98,17 +101,20 @@ namespace Fighter_Jet
                 shooting = false;
             }
 
+            //Level2, speed x2
             if(score == 10)
             {
                 enemySpeed = 10;
             }
             
+            //Level3, speed x3
             if(score == 20)
             {
                 enemySpeed = 15;
             } 
         }
 
+        //key for movement is pressed
         private void keyisdown(object sender, KeyEventArgs e)
         {
             if(e.KeyCode == Keys.Left)
@@ -122,6 +128,7 @@ namespace Fighter_Jet
             }
         }
 
+        //key for movement is released
         private void keyisup(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Left)
@@ -134,6 +141,7 @@ namespace Fighter_Jet
                 goRight = false;
             }
 
+            //shooting with space key
             if(e.KeyCode == Keys.Space && shooting == false)
             {
                 shooting = true;
@@ -142,6 +150,7 @@ namespace Fighter_Jet
                 bullet.Left = player.Left + (player.Width / 2);
             }
 
+            //reset game with enter key
             if(e.KeyCode == Keys.Enter && isGameOver == true)
             {
                 resetGame();
@@ -149,6 +158,7 @@ namespace Fighter_Jet
 
         }
 
+        //reseting the game for start
         private void resetGame()
         {
             gameTimer.Start();
@@ -171,6 +181,7 @@ namespace Fighter_Jet
 
         }
 
+        //game ends, print the score and show reset option
         private void gameOver()
         {
             isGameOver = true;
