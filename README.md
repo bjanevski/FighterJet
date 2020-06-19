@@ -38,3 +38,7 @@
   <img src="images/enemiesandlevels.jpg" width="400">
 </p> 
 
+<br />
+<br />
+Windows Forms Project by: Bojan Janevski
+
