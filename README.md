@@ -18,6 +18,6 @@
 
 <img src="images/components.jpg">
 
-Целосната функционалност на играта е имплементирана во класата [Form1](https://github.com/bjanevski/FighterJet/blob/master/Fighter%20Jet/Form1.cs)
+Целосната функционалност на играта е имплементирана во класата [Form1](https://github.com/bjanevski/FighterJet/blob/master/Fighter%20Jet/Form1.cs).
 
 
