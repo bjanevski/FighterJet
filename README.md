@@ -35,6 +35,6 @@
 
 <p float="left">
   <img src="images/movement.jpg" width="450">
-  <img src="images/enemiesandlevels.jpg" width="400">G
+  <img src="images/enemiesandlevels.jpg" width="400">
 </p> 
 
