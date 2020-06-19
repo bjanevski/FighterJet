@@ -57,7 +57,6 @@ namespace Fighter_Jet
                 player.Left += playerSpeed;
             }
 
-            //player movement ends
             if(shooting == true)
             {
                 bulletSpeed = 20;
