@@ -23,11 +23,7 @@
 Во методот mainGameTimerEvent() се имплементирани движењата на играчот, уништувањето на противничките авиони како и менувањето на тежината на играта по одреден постигнат резултат.
 
 <p float="left">
-  <img src="images/movement.jpg" width="400">
-  <img src="images/destroying_enemies.jpg" width="400">
+  <img src="images/movement.jpg" width="500">
+  <img src="images/enemiesandlevels.jpg" width="400">
 </p> 
 
-<p float="left">
-  <img src="images/levels.jpg">
-  <p> ova se levels </p>
-</p>  
