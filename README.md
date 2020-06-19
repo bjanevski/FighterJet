@@ -22,9 +22,9 @@
 
 <img src="images/components.jpg">
 <p float="left">
-  <img src="images/player.jpg">
-  <img src="images/enemy.jpg">
-  <img src="images/bullet.jpg">
+  <img src="images/player.png">
+  <img src="images/enemy.png">
+  <img src="images/bullet.png">
 </p> 
 <br />
 <br />
