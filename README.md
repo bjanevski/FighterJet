@@ -25,7 +25,7 @@
   <img src="images/player.png">
   <img src="images/enemy.png">
   <img src="images/bullet.png">
-  <img src="images/score.jpg" width="150">
+  <img src="images/score.jpg" width="130">
   <img src="images/label.jpg">
 </p> 
 <br />
@@ -41,7 +41,7 @@
 **Тежината на играта се зголемува** на тој начин што се прави едноставна проверка дали резултатот е 10, при што **enemySpeed** се зголемува на 10, а доколку резултатот изнесува 20, тогаш се зголемува на 15.
 
 <p float="left">
-  <img src="images/movement.jpg" width="450">
+  <img src="images/movement.jpg" width="400">
   <img src="images/enemiesandlevels.jpg" width="400">
 </p> 
 
